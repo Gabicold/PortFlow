@@ -7,7 +7,7 @@
     
 }
 .container{
-    height:10vw;
+    height: 10vh;
     width: 100%;
     background-color: white;
     display:flex;
@@ -32,15 +32,16 @@ a:hover{
 nav{
     list-style-type: none;
     list-style: none;
-    margin-right: 50px;
+    margin-right: 5vw;
 }
 li{
     display:inline-block;
-    font-size: 2rem;
-    margin: 5px;
+    font-size: 2vh;
+    margin: 10px;
     
 }
 .bo{
+    margin-top: 6vw;
     background-image: url(midia/Laranja.png);
     background-repeat: no-repeat ;
     background-size: 100vw;
@@ -49,17 +50,17 @@ li{
     
 }
 h2{
-    font-size: 50px;
+    font-size: 8vh;
     color:white;
     font-weight: bold;
-    width: 57vw;
+    width: 80vw;
     font-family: "Montserrat";
     position:relative;
      top: 15vw; 
      left: 5vw;
 }
 .Texto_bo{
-    font-size:25px;
+    font-size: 4vh;
     color:white;
     font-weight: lighter;
     width: 57vw;
@@ -70,8 +71,8 @@ h2{
 }
 img{
     margin:1vw;
-    height:15vw ;
-    width:15vw ;
+    height: 17vw ;
+    width: 17vw ;
 }
 main{
     display: flex;
@@ -81,14 +82,46 @@ main{
 .img_main{
     justify-content: center;
     margin-top: -50%;
+    margin-bottom:10vw;
     display: flex;
     flex-wrap: wrap;
     height:  50vw;
     width: 80vw;
-}
-.D_footer{
-   margin-top: 15px;
+}footer{
+    display: flex;
+    margin-top: 15px;
     height:10vh;
     width:100%;
-    background-color: tomato;
+    background-color: rgb(255, 255, 255);
+}
+.img_footer{
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 12vw;
+    width: max-content;
+}
+.Social-f{
+    height: 2vh;
+    width: 1vh;
+}
+.Social{
+    height: 2vh;
+    width: 2vh;
+}
+.Social-y{
+    height: 2vh;
+    width: 3vh;
+}
+.p_footer{
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-left: 10vh;
+    margin-top: 4vh;
+}
+.descriçao{
+    width: 30vw;
+    height: 4vh;
+    margin-top: 3.5vh;
+    margin-left: 1vh;
+    font-size: 1vh;
 }
