@@ -148,7 +148,7 @@ main{
     .hamburguer{
         display:flex;
         height: 5vh;
-        width: 25vh;
+        width: 20vh;
     }
     .hi{
         
@@ -156,11 +156,38 @@ main{
         width: 30vh;
     }
     .pf{
-      margin-right: 50vw;
+      margin-right: 25vw;
     }
     li{
         display:none;
     }
+    h2{
+        Display:none;
+    }
+    .Texto_bo{
+        display: none;
+    }
+    .Imagine{
+        color:white;
+        font-size: 8vh;
+        font-weight: bold;
+        font-family: "Montserrat";
+        width: 80vw;
+        position:relative;
+         top: 65vw; 
+         left: 10vw;
+    }
+    .Texto_bo2{
+        font-size: 4vh;
+        color:white;
+        font-weight: lighter;
+        width: max-content;
+        font-family: "Montserrat";
+        position: absolute;
+         top: 125vw; 
+         left: 10vw;
+    }
+    
     /*Main*/
    .bo{
     display:none;
@@ -227,15 +254,16 @@ main{
         align-items: center;
         margin-left: 70vw;
         margin-top: 1087vw;
-        width: 15vw;
-        height: 8vw;
+        width: 10vh;
+        height: 5vh;
     }
     .Topo{
         position:absolute;
         font-family: "Montserrat";
         font-weight: bold;
-        margin-left: 3.5vw;
-        margin-top: 2.5vw;
+        position:relative;
+        top: 1.5vh;
+        left:2vh;
         
     }
 }
